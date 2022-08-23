@@ -8,7 +8,7 @@ import (
 	"github.com/urfave/cli"
 )
 
-// Generate fun will return the command line app
+// Generate func will return the command line app
 func Generate() *cli.App {
 	app := cli.NewApp()
 	app.Name = "Command Line Application"
